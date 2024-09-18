@@ -1,0 +1,31 @@
+.todo-container {
+  max-width: 600px; 
+  margin: 0 auto;   
+  padding: 1rem;    
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #fff; 
+}
+
+.todo-container ul li.low {
+  background-color: #d4edda; 
+}
+
+.todo-container ul li.medium {
+  background-color: #fff3cd; 
+}
+
+.todo-container ul li.high {
+  background-color: #f8d7da; 
+}
+
+
+.todo-container ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 4px; 
+  margin-bottom: 5px; 
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
